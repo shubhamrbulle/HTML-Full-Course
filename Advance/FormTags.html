@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Form in HTML -->
     <!-- Forms are used to collect data from the user eg. Sign Up/Login/Help Requests/Contact Me -->
     <!--<form>
         
     </form>-->
-    
+
     <!-- form with Attribute -->
     <!-- Action in Form : Action attribute is used to define what action needs to be performed when a form is submitted -->
-    
+
     <h1>Form</h1>
     <form action="/action.php">
-        <!-- Form Elements -->
-        <!-- Input -->
-        <input type="text" placeholder="Username"><br>
-        <input type="password" placeholder="Password"><br>
-        <input type="radio" value="class 10th" name="class" placeholder="10th">class 10th
-        <input type="radio" value="class 12th" name="class" placeholder="12th">class 12th
+      <!-- Form Elements -->
+      <!-- Input -->
+      <input type="text" placeholder="Username" /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input
+        type="radio"
+        value="class 10th"
+        name="class"
+        placeholder="10th"
+      />class 10th
+      <input
+        type="radio"
+        value="class 12th"
+        name="class"
+        placeholder="12th"
+      />class 12th
 
-        <!-- Lable -->
-        <label for="id1">
-            <input type="radio" value="BE-CSE" name="class" id="id1" title="BE" placeholder="Engineer">
-        </label>
-        <label for="id2">
-            <input type="radio" value="12th" name="class" id="id2" title="CBSC" placeholder="Junior">
-        </label>
+      <!-- Lable -->
+      <br />
+      <h1>Label Tags</h1>
+      <label for="id1">
+        <input
+          type="radio"
+          value="BE-CSE"
+          name="class"
+          id="id1"
+          title="BE"
+          placeholder="Engineer"
+        />CSE
+      </label>
+      <label for="id2">
+        <input
+          type="radio"
+          value="12th"
+          name="class"
+          id="id2"
+          title="CBSC"
+          placeholder="Junior"
+        />12th
+      </label>
+
+      <!-- Class & Id -->
+      <div id="id1" class="group1">shubham</div>
+      <div id="id2" class="group1">shubham</div><br>
+
+      <!-- Text Area Tag -->
+      <textarea name="feedback" id="3" placeholder="Please give your Valuable Feedback"></textarea>
+
+
     </form>
-</body>
+  </body>
 </html>
